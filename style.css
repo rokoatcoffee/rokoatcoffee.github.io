@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(34, 34, 77);
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#game-message {
+  position: absolute; /* or fixed */
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 7.5%;
+  text-align: center;
+}
+
+.game-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: .5rem .5rem;
+}
+
+.grid-cell {
+  height: 5rem;
+  width: 5rem;
+  border: .3rem solid;
+  border-color: whitesmoke;
+  border-radius: 5%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.cover {
+  background: whitesmoke;
+  transition-duration: .2s;
+}
+
+#play-button {
+  position: absolute; /* or fixed */
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 7.5%;
+}
