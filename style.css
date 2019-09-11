@@ -17,15 +17,17 @@ body {
 
 .top {
   display: block;
-  height: 8vmin;
-  padding: 2.5vmin;
+  height: 6vmin;
+  padding-top: .5vmin;
+  padding-bottom: 1vmin;
 }
 
 #game-message {
   position: relative;
-  top: 50%;
+  /* top: 15%; */
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-bottom: 1.5vmin;
 }
 
 .center {
