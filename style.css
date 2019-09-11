@@ -18,10 +18,14 @@ body {
 .top {
   display: block;
   height: 8vmin;
+  padding: 2.5vmin;
 }
 
 #game-message {
-  padding: 2.5vmin;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .center {
@@ -33,12 +37,11 @@ body {
 .bottom {
   display: block;
   height: 8vmin;
-  padding-bottom: 4vmax;
+  padding-bottom: 2vmax;
 }
 
 #play-button {
   position: relative;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: .5vmin solid;
@@ -48,8 +51,11 @@ body {
   width: 5vmax;
 }
 
-
 .grid-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: inline-grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(6, 1fr);
