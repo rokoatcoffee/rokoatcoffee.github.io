@@ -18,16 +18,13 @@ body {
 .top {
   display: block;
   height: 6vmin;
-  padding-top: .5vmin;
-  padding-bottom: 1vmin;
 }
 
 #game-message {
   position: relative;
-  /* top: 15%; */
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-bottom: 1.5vmin;
 }
 
 .center {
@@ -39,7 +36,6 @@ body {
 .bottom {
   display: block;
   height: 8vmin;
-  padding-bottom: 2vmax;
 }
 
 #play-button {
@@ -54,10 +50,6 @@ body {
 }
 
 .grid-container {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: inline-grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -88,7 +80,6 @@ body {
   }
 
   [class="bottom"] {
-    padding-bottom: 2vmax;
-    padding-top: 6vmax;
+    padding-top: 8vmin;
   }
 }
