@@ -1,0 +1,15 @@
+.app {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+  }
+  
+#video {
+position: relative;
+width: 80vw;
+height: 80vh;
+transform: scaleX(-1);
+border: 1px solid #15015e;
+}
