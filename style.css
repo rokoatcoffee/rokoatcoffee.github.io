@@ -69,6 +69,16 @@ body {
   width: 3em;
 }
 
+.hidden {
+  display: none !important;
+}
+
+.install-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 7.5%;
+}
+
 @media screen and (max-width: 1150px){
 
   .grid-cell {
