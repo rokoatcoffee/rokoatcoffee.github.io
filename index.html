@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <script src="./index.js" defer></script>
 
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="/icons/manifest-icon-192.png">
+  <meta name="theme-color" content="#22224D" />
   <title>Ayumu's Game</title>
 </head>
 
@@ -83,6 +86,12 @@
   <div class="bottom">
     <div id="play-button"></div>
   </div>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+    }
+  </script>
 
 </body>
 
