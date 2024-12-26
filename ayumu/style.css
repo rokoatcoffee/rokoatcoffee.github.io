@@ -83,7 +83,6 @@ body {
     background-color: whitesmoke;
     color: transparent;
     cursor: pointer;
-    /* pointer-events: none; */
 }
 
 .hidden {
@@ -105,6 +104,6 @@ body {
 
     .grid-item {
         width: calc(70vh / 11);
-        font-size: calc(70vh / 13);
+        font-size: calc(70vh / 16);
     }
 }
